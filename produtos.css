@@ -28,6 +28,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -61,11 +66,6 @@ nav a {
     margin-top: 10px;
 }
 
-nav a:hover {
-    color: #C78C19;
-    text-decoration: underline;
-}
-
 .produtos li:hover {
     border-color: #C78C19;
 }
@@ -80,7 +80,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url("bg.jpg");
+    background: url("img/bg.jpg");
     padding: 40px 0;
 }
 
