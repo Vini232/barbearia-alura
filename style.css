@@ -9,8 +9,16 @@ body {}
 	padding: 30px;
 }
 
+.logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 35px;
+}
+
 .titulo-principal {
 	padding-left: 20px;
+	height: 15vw;
 }
 
 .titulo-centralizado {
@@ -38,7 +46,7 @@ em strong {
 	padding: 20px;
 }
 
-ul {
+.beneficios ul {
 	display: inline-block;
 	vertical-align: top;
 	width: 20%;
@@ -58,12 +66,10 @@ header {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
-}
-
-nav {
-	position: absolute;
-	top: 110px;
-	right: 0;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 nav li {
