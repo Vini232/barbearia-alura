@@ -1,6 +1,38 @@
 header {
-    background: #BBBBBB;
+    background: #bbb;
     padding: 20px 0;
+} 
+.banner{
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+} 
+
+.utensiliosn{
+     width: 120px;
+     float: left;
+     margin: 0 20px 20px 0;
+} 
+
+.imagembeneficios{
+    width: 60%;
 }
 
 .caixa {
@@ -22,7 +54,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #000;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -53,6 +85,7 @@ nav a:hover {
 
 .produtos li:hover {
     border-color: #C78C19;
+
 }
 
 .produtos li:active {
@@ -85,12 +118,6 @@ main {
 
 form {
     margin: 40px 0;
-}
-
-form label {
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
 }
 
 form label,
@@ -146,7 +173,7 @@ footer {
 .enviar:hover {
     background: darkorange;
     transform: scale(1.2);
-}
+} 
 
 table {
     margin: 20px 0 40px;
@@ -158,22 +185,7 @@ thead {
     font-weight: bold;
 }
 
-td,th {
-    border: 1px solid #000000;
-    padding: 8px 15px;
-}
-
-table {
-    margin: 20px 0 40px;
-}
-
-thead {
-    background: #555555;
-    color: white;
-    font-weight: bold;
-}
-
-td,th {
+td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
